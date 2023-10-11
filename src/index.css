@@ -139,6 +139,15 @@ body {
   margin-top: 1rem;
 }
 
+.certificate {
+  color: white;
+  font-weight: 700;
+}
+
+.certificate:hover {
+  text-decoration: underline;
+}
+
 .divImg {
   padding: 20px;
   border-radius: 10px;
@@ -154,3 +163,58 @@ body {
 .skills {
   height: 100vh;
 }
+
+.divSkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divSkills > h6 {
+  font-size: 18px;
+  color: #004aad;
+}
+
+.divSkills > h2 {
+  font-size: 50px;
+  color: #449DD1;
+  margin-bottom: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 50px;
+  -moz-column-gap: 70px;
+  column-gap: 70px;
+  margin-bottom: 200px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f0f1e0;
+  box-shadow: 1px 7px 7px rgba(0, 0, 0, 0.2);
+  width: 275px;
+  height: 125px;
+  border-radius: 10px;
+  transition: transform 0.4s ease-out;
+}
+
+.grid-item:hover {
+  transform: scale(1.1);
+}
+
+.grid-item > h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.grid-item > img {
+  width: 80px;
+  height: 80px;
+}
+

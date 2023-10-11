@@ -8,7 +8,7 @@ const AboutMe = () => {
                 <h6>SOBRE MÍ</h6>
                 <h2>Quién soy</h2>
                 <p>Me llamo Gerónimo Mariani, soy de Argentina. Siempre estuve en el mundo de la informática y fue lo que siempre me gusto, me considero una persona puntual, ordenada, responsable y no tengo problema de trabajar en equipo.</p>
-                <p>Recientemente me cautivó la programación. Comencé a estudiar en CoderHouse y actualmente me recibí de Desarrollador Frontend React. Todo el tiempo estoy tratando de aprender cosas nuevas por mi cuenta, y también, actualmente estoy estudiando la carrera Full-Stack.</p>
+                <p>Recientemente me cautivó la programación. Comencé a estudiar en CoderHouse y actualmente me recibí de <a className='certificate' href="https://www.coderhouse.com/certificados/651f05a8002d2285e9f3b8df?lang=es" target="_blank">Desarrollador Frontend React.</a> Todo el tiempo estoy tratando de aprender cosas nuevas por mi cuenta, y también, actualmente estoy estudiando la carrera Full-Stack.</p>
             </div>
             <div className="divImg">
                 <img src={me} alt="Foto de perfil" />
