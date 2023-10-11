@@ -1,8 +1,15 @@
 import React from 'react'
+import Presentation from './Presentation'
+import AboutMe from './AboutMe'
+import Skills from './Skills'
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <main>
+            <Presentation />
+            <AboutMe />
+            <Skills />
+        </main>
     )
 }
 

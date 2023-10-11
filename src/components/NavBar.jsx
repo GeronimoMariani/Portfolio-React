@@ -1,14 +1,11 @@
 import React from 'react'
 import  logo  from "../assets/logo.png";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { Us } from "react-flags-select";
 import { Es } from "react-flags-select";
 
 
 const NavBar = () => {
-
-
-
     return (
         <>
             <header className="headerIndex">
@@ -17,8 +14,8 @@ const NavBar = () => {
                 </div>
                 <nav>
                     <ul className="navIdioma">
-                        <li><Link to="/"><Es className='es' /></Link></li>
-                        <li><Us className='us' /></li>
+                        <li><NavLink activeclassname="active" to="/"><Es className='es' /></NavLink></li>
+                        <li><NavLink activeclassname="active" to="/en"><Us className='us' /></NavLink></li>
                     </ul>
                 </nav>
             </header>
