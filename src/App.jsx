@@ -3,6 +3,7 @@ import './App.css'
 import NavBar from './Components/NavBar'
 import Home from './components/Home'
 import En from './components/En'
+import Success from './components/Success'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route exact path='/en' element={<En />} />
+        <Route exact path='/success' element={<Success />} />
       </Routes>
       </BrowserRouter>
     </>
