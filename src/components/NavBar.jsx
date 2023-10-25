@@ -15,7 +15,7 @@ const NavBar = () => {
                 <nav>
                     <ul className="navIdioma">
                         <li><NavLink activeclassname="active" to="/"><Es className='es' /></NavLink></li>
-                        <li><NavLink activeclassname="active" to="/en"><Us className='us' /></NavLink></li>
+                        <li><NavLink activeclassname="active" to="/home"><Us className='us' /></NavLink></li>
                     </ul>
                 </nav>
             </header>
