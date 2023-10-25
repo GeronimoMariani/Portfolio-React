@@ -3,6 +3,7 @@ import  logo  from "../assets/logo.png";
 import { Link, NavLink } from 'react-router-dom';
 import { Us } from "react-flags-select";
 import { Es } from "react-flags-select";
+import { TbWorld } from 'react-icons/tb';
 
 
 const NavBar = () => {
@@ -14,6 +15,7 @@ const NavBar = () => {
                 </div>
                 <nav>
                     <ul className="navIdioma">
+                        <li><TbWorld className='world'/></li>
                         <li><NavLink activeclassname="active" to="/"><Es className='es' /></NavLink></li>
                         <li><NavLink activeclassname="active" to="/home"><Us className='us' /></NavLink></li>
                     </ul>

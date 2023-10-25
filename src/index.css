@@ -42,8 +42,14 @@ body {
   margin-right: 100px;
 }
 
+.world {
+  font-size: 40px;
+  text-align: center;
+  color: #144999;
+}
+
 .es {
-  font-size: 50px;
+  font-size: 40px;
   cursor: pointer;
 }
 
@@ -52,7 +58,7 @@ body {
 }
 
 .us {
-  font-size: 50px;
+  font-size: 40px;
   cursor: pointer;
 }
 
