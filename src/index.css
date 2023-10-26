@@ -401,13 +401,14 @@ body {
 
 @media (max-width: 768px) {
   .presentation {
-    height: 70vh;
+    height: 100vh;
   }
   .presentation .divPresentation p {
     width: 100%;
   }
   .aboutMe {
     flex-direction: column;
+    height: 120vh;
   }
   .aboutMe .divAboutMe {
     width: 100%;
@@ -417,6 +418,9 @@ body {
   .aboutMe .divImg {
     margin-top: 30px;
     padding: 20px;
+  }
+  .skills {
+    height: 120vh;
   }
   .proyectos {
     height: 160vh;
@@ -432,10 +436,10 @@ body {
     margin-left: 40px;
   }
   .headerIndex .navIdioma {
-    margin: 0;
+    margin-right: 10px;
   }
   .presentation {
-    height: 100vh;
+    height: 120vh;
   }
   .presentation .divPresentation h1 {
     font-size: 2.438rem;
@@ -443,12 +447,12 @@ body {
   .presentation .divPresentation h2 {
     font-size: 2.125rem;
   }
-  .presentation .divPresentation p {
+  .data{
     font-size: 0.9rem;
     width: 100%;
   }
   .aboutMe {
-    height: 100vh;
+    height: 120vh;
   }
   .aboutMe .divAboutMe {
     margin: 0 auto;
@@ -474,7 +478,7 @@ body {
     grid-template-rows: repeat(6, 1fr);
   }
   .proyectos {
-    height: 150vh;
+    height: 170vh;
   }
   .proyectos .divProyectos h2 {
     font-size: 1.8rem;
