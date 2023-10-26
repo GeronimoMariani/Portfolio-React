@@ -2,6 +2,8 @@ import React from 'react'
 import PresentationEn from './PresentationEn'
 import AboutMeEn from './AboutMeEn'
 import SkillsEn from './SkillsEn'
+import ProyectsEn from './ProyectsEn'
+import ContactMeEn from './ContactMeEn'
 
 const HomeEn = () => {
     return (
@@ -9,6 +11,8 @@ const HomeEn = () => {
             <PresentationEn />
             <AboutMeEn />
             <SkillsEn />
+            <ProyectsEn />
+            <ContactMeEn />
         </main>
     )
 }

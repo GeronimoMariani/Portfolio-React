@@ -301,7 +301,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   -moz-column-gap: 30px;
-  column-gap: 30px;
+  column-gap: 100px;
 }
 .proyectos .divProyectos .grid-container2 .grid-item2 {
   display: flex;
@@ -379,4 +379,114 @@ body {
 .exito .divExito h5 {
   color: #449DD1;
   font-size: 30px;
+}
+
+@media (max-width: 1024px) {
+  .skills .divSkills .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .proyectos .divProyectos .grid-container2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .proyectos {
+    height: 160vh;
+  }
+  .contact {
+    height: 120vh;
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .presentation {
+    height: 70vh;
+  }
+  .presentation .divPresentation p {
+    width: 100%;
+  }
+  .aboutMe {
+    flex-direction: column;
+  }
+  .aboutMe .divAboutMe {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .aboutMe .divImg {
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .proyectos {
+    height: 160vh;
+  }
+  .exito .divExito h5 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .headerIndex .divLogo .imgLogo {
+    width: 120px;
+    margin-left: 40px;
+  }
+  .headerIndex .navIdioma {
+    margin: 0;
+  }
+  .presentation {
+    height: 100vh;
+  }
+  .presentation .divPresentation h1 {
+    font-size: 2.438rem;
+  }
+  .presentation .divPresentation h2 {
+    font-size: 2.125rem;
+  }
+  .presentation .divPresentation p {
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  .aboutMe {
+    height: 100vh;
+  }
+  .aboutMe .divAboutMe {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .aboutMe .divAboutMe h2 {
+    font-size: 2.438rem;
+  }
+  .aboutMe .divAboutMe p {
+    font-size: 0.9rem;
+  }
+  .skills {
+    height: 200vh;
+  }
+  .skills .divSkills {
+    text-align: center;
+  }
+  .skills .divSkills h2 {
+    font-size: 2.438rem;
+  }
+  .skills .divSkills .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .proyectos {
+    height: 150vh;
+  }
+  .proyectos .divProyectos h2 {
+    font-size: 1.8rem;
+  }
+  .contact {
+    height: 100vh;
+    width: 90%;
+  }
+  .contact .divContact h2 {
+    font-size: 2.438rem;
+  }
+  .exito .divExito h5 {
+    font-size: 20px;
+  }
 }

@@ -2,14 +2,11 @@ import React from 'react'
 import { useForm } from 'react-hook-form';
 import { addDoc, collection, getFirestore } from 'firebase/firestore';
 import { useState } from 'react';
-import Success from './Success';
 
 const ContactMe = () => {
 
-    const {register, handleSubmit, getValues} = useForm();
+    const {register, handleSubmit,} = useForm();
     const [userName, setUserName] = useState("");
-
-    const user = getValues("nombre");
 
     const datos = (data) => {
         const user = {
@@ -24,7 +21,7 @@ const ContactMe = () => {
     }
 
     if(userName) {
-        return window.location = "http://localhost:5173/success"
+        return window.location = "http://geronimomariani.com.ar/exito";
     }
 
     return (
