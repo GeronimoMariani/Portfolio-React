@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useForm } from 'react-hook-form';
 import { addDoc, collection, getFirestore } from 'firebase/firestore';
 import { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 
 const ContactMeEn = () => {
 
@@ -20,9 +21,13 @@ const ContactMeEn = () => {
         })
     }
 
-    if(userName) {
-        return window.location = "http://geronimomariani.com.ar/success";
-    }
+let navigate = useNavigate();
+
+useEffect(() => {
+    if (userName){
+        return navigate("/success");
+}
+},[userName]);
 
     return (
         <section className="contact">

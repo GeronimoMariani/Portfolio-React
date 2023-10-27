@@ -3,7 +3,7 @@ import React from 'react'
 const SuccessEn = () => {
 
     setTimeout(function(){
-        window.location.replace('http://geronimomariani.com.ar/home');
+        window.location.replace('https://geronimomariani.com.ar/');
     },5000);
 
     return (
