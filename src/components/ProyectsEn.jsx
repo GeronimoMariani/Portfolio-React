@@ -32,7 +32,7 @@ const ProyectsEn = () => {
                         <div className="info">
                             <h3>Ecommerce React Js</h3>
                             <p>Ecommerce created with React js.</p>
-                            <a href="https://gema-tiendaoficial.netlify.app/" target="_blank">More Info</a>
+                            <a href="https://ecommerce-react-gema.netlify.app/" target="_blank">More Info</a>
                         </div>
                     </div>
                     <div className="grid-item2 container-fluid">

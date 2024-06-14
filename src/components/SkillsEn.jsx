@@ -5,8 +5,8 @@ import Js from "../assets/js.svg";
 import Rct from "../assets/react.svg";
 import Git from "../assets/git.svg";
 import GitHub from "../assets/github.svg";
-import Bootstrap from "../assets/bootstrap.svg";
-import Sass from "../assets/sass.svg";
+import NodeJs from "../assets/nodejs.svg";
+import MongoDb from "../assets/mongodb.svg";
 
 const SkillsEn = () => {
     return (
@@ -40,12 +40,12 @@ const SkillsEn = () => {
                         <h5>GITHUB</h5>
                     </div>
                     <div className="grid-item">
-                        <img src={Bootstrap} alt="Bootstrap" />    
-                        <h5>BOOTSTRAP</h5>
+                        <img src={NodeJs} alt="NodeJs" />    
+                        <h5>NODE.JS</h5>
                     </div>
                     <div className="grid-item">
-                        <img src={Sass} alt="Sass" /> 
-                        <h5>SASS</h5>
+                        <img src={MongoDb} alt="MongoDb" /> 
+                        <h5>MONGO DB</h5>
                     </div>
                 </div>
             </div>

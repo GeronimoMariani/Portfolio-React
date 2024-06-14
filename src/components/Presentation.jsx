@@ -9,8 +9,8 @@ const Presentation = () => {
         <section className='presentation'>
             <div className="data">
                 <h1>Hola! Me llamo Gerónimo</h1>
-                <h2>Soy Desarrollador Frontend React</h2>
-                <p>Soy de Argentina. Me especializo en diseñar y codear páginas web responsive. Siempre me encuentro practicando mis habilidades o aprendiendo tecnologías nuevas. Actualmente estoy cursando la carrera Full-Stack en la Academia CoderHouse para complementar mis conocimientos.</p>
+                <h2>Soy Desarrollador Full Stack</h2>
+                <p>Soy de Argentina. Me especializo en diseñar y codear páginas web responsive. Siempre me encuentro practicando mis habilidades o aprendiendo tecnologías nuevas. Actualmente me recibí como desarrollador Full-Stack en la Academia CoderHouse.</p>
                 <div className="nets">
                     <a className="icons" href="https://www.linkedin.com/in/geronimo-mariani-a6727626a/" target="_blank"><FaLinkedinIn /></a>
                     <a className="icons" href="https://github.com/GeronimoMariani" target="_blank"><FaGithub /></a>
